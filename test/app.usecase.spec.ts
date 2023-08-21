@@ -1,15 +1,11 @@
 import "reflect-metadata";
-import { AppUseCase } from "../src/useCases/app/app.usecase";
+import { AppUseCase } from "../src/app.usecase";
 
 describe("AppUseCase", () => {
-    let appUseCase: AppUseCase;
+    it("returns Hello Expresso TS!", () => {
+        const appUseCase = new AppUseCase();
+        const result = appUseCase.execute();
 
-    beforeEach(() => {
-        appUseCase = new AppUseCase();
-    });
-
-    it("returns a valid AppResponse", () => {
-        const response = appUseCase.execute();
-        expect(response).toBe("Hello from ExpressoTS App");
+        expect(result).toBe("Hello Expresso TS!");
     });
 });

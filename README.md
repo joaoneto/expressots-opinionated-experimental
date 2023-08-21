@@ -3,7 +3,7 @@
 The expressots-opinionated-experimetal project is an initiative that seeks to explore the possibilities of a faster and more efficient build system for the expressots framework. Expressots is a TypeScript-based framework that facilitates the development of robust and scalable web applications. The experimental build system of the expressots-opinionated-experimetal project promises to be much more performant than the current version of expressots, but it is still in the testing and validation phase. Therefore, it is not recommended to use this project in production environments, as there may be bugs and inconsistencies. The expressots framework website (https://expresso-ts.com/) offers a detailed documentation on how to use expressots and its features.
 
 ## Server
-The server runs on the http://localhost:3000. Opening this url, the server response is `"Hello from ExpressoTS App"`. This means that the server is working properly and ready to handle requests.
+The server runs on the http://localhost:3000. Opening this url, the server response is `Hello Expresso TS!`. This means that the server is working properly and ready to handle requests.
 
 ## Installation
 
